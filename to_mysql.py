@@ -33,6 +33,5 @@ data = cursor.fetchall()
 print("Resultat de la requette select ci-haut")
 print(data)
 # on affiche le type du resultat
-# il va
 print(type(data))
     
