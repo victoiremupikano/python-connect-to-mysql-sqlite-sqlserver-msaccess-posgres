@@ -27,4 +27,12 @@ print("La liste des tables de 'sakila' :")
 for i in data:
     print(i)
     
+# on effectue une requette sql pour recuere les donnes dans une table
+cursor.execute("select * from country")
+data = cursor.fetchall()
+print("Resultat de la requette select ci-haut")
+print(data)
+# on affiche le type du resultat
+# il va
+print(type(data))
     
